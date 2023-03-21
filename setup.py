@@ -39,5 +39,5 @@ setup(
 
     ],
     keywords=["pyLegendBS", "LegendBS"],
-    install_requires=[]
+    install_requires=["pyrogram"]
 )
