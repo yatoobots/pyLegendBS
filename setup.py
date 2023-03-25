@@ -14,7 +14,7 @@ setup(
     name="pyLegendUB",
     author="LegendBoy",
     author_email="krishna045jaiswal@gmail.com",
-    version="0.2",
+    version="0.3",
     description="This is a simple package which is used in Bot Spam",
     long_description = readme_contents,
     long_description_content_type="text/markdown",
