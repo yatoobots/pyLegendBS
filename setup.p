@@ -11,7 +11,7 @@ except Exception as error:
     
 
 setup(
-    name="pyLegendUB",
+    name="pyLegendBS",
     author="LegendBoy",
     author_email="krishna045jaiswal@gmail.com",
     version="0.3",
@@ -26,7 +26,7 @@ setup(
         "Framework :: AsyncIO",
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv2+)',
+
         "Natural Language :: English",
         "Operating System :: OS Independent",
         'Programming Language :: Python :: 3.7',
