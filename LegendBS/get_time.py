@@ -8,4 +8,4 @@ def get_time(time: int):
     elif time >= 60 < 3600:
         time = int(time / 60)
         unit = "minutes"
-    return "{} {}".format(time, unit)
+    return " {} {}".format(time, unit)
