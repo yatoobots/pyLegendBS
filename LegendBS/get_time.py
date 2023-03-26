@@ -1,6 +1,6 @@
+global time
+global unit
 def get_time(time: int):
-    global time
-    global unit
     if time >= 86400:
         time = int(time / (60 * 60 * 24))
         unit = "days"
