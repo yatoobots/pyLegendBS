@@ -1,5 +1,5 @@
-global time
-global unit
+import time
+
 def get_time(time: int):
     if time >= 86400:
         time = int(time / (60 * 60 * 24))
