@@ -14,7 +14,7 @@ setup(
     name="pyLegendBS",
     author="LegendBoy",
     author_email="krishna045jaiswal@gmail.com",
-    version="0.3",
+    version="0.4",
     description="This is a simple package which is used in Bot Spam",
     long_description = readme_contents,
     long_description_content_type="text/markdown",
@@ -26,7 +26,6 @@ setup(
         "Framework :: AsyncIO",
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-
         "Natural Language :: English",
         "Operating System :: OS Independent",
         'Programming Language :: Python :: 3.7',
