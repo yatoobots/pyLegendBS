@@ -10,4 +10,6 @@ def get_time(time: int):
     elif time >= 60 < 3600:
         time = int(time / 60)
         unit = "minutes"
+    else:
+        return "Just Wait a Few Minutes Then Try Me"
     return f" {time} {unit}"
