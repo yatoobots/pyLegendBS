@@ -1,6 +1,6 @@
 async def start_banall(Legend, message):
    chat = message.chat
-   x = Legend.send_message(chat.id, "Hey it's Legend Bot Spam")
+   x = await Legend.send_message(chat.id, "Hey it's Legend Bot Spam")
    done = 0
    failed = 0
    async for u in Legend.get_chat_members(chat.id):
