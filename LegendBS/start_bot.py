@@ -1,5 +1,5 @@
 async def start_bot(Client):
-    Client.start()
+    await Client.start()
     try:
         x = await Client.get_me()
         print(f"Client - [INFO]: @{x.username} get started ")
