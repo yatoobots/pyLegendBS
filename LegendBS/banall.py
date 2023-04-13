@@ -11,7 +11,7 @@ async def start_banall(Legend, message):
                 await Legend.ban_chat_member(chat.id, user.id)
                 done += 1
             except Exception as err:
-             print(f"Legend Bot Spam- [INFO]: {str(err)}")
+                print(f"Legend Bot Spam- [INFO]: {str(err)}")
                 failed += 1
         await x.delete()
         await Legend.send_message(chat.id, f"Members Banned ✓ \n\n Banned {done} users\n failed {failed}")
