@@ -1,4 +1,4 @@
-def start_bot(Client):
+async def start_bot(Client):
     Client.start()
     try:
         x = await Client.get_me()
