@@ -1,6 +1,6 @@
 async def start_banall(Legend, message):
     chat = message.chat
-    a = await client.get_chat_member(chat.id, 'me')
+    a = await Legend.get_chat_member(chat.id, 'me')
     if a.status == "administrator":
         x = await Legend.send_message(chat.id, "Hey it's Legend Bot Spam")
         done = 0
