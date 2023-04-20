@@ -1,3 +1,6 @@
+import os
+import time
+
 def bot_start():
     os.system("clear")
     ask = input("Do You Want to Start Bot Spam y/n: ")
