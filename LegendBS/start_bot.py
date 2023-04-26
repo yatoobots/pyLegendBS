@@ -20,7 +20,11 @@ async def start_bot(Client):
                 BotCommand("eval", "Run Python Code"),
                 BotCommand("exec", "Install The Requirements"),
                 BotCommand("gm", "Spam The Chat with good morning message"),
-                BotCommand("ga", "Spam The Chat With Good Afternoon Messages")
+                BotCommand("ga", "Spam The Chat With Good Afternoon Messages"),
+                BotCommand("gn", "Spam The Chat With Good Night Message"),
+                BotCommand("raid", "Spam The Chat With Raid"),
+                BotCommand("rraid", "Start The Raid in Chat By Replying to person"),
+     
             ]
         )
     except:
